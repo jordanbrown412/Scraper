@@ -41,3 +41,5 @@ request("https://www.reddit.com/r/webdev", function(error, response, html) {
 
 });
 };
+
+module.exports = scrape;
